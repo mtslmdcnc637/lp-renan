@@ -6,619 +6,653 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name='robots' content='max-image-preview:large' />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
 	<style>
-        html,body{
-            height: 100%;
-            width: 100%;
-            max-width: 100vw;
-        }
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+			max-width: 100vw;
+		}
 
-    </style>
-	
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			max-width: 100vw;
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		div {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			max-width: 100vw;
+		}
+
+		section {
+			padding-top: 2rem;
+			width: 100%;
+			max-width: 100vw;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 1rem;
+
+		}
+
+		.alert-banner {
+			text-align: center;
+			text-decoration: none;
+			background-color: #ffda00;
+			display: block;
+			padding: 1rem 2rem;
+			color: red;
+		}
+
+		.alert-banner span {
+			border: 2px dashed red;
+			display: block;
+			padding: .5rem;
+			animation: pulse 0.7s infinite;
+		}
+
+		@keyframes pulse {
+			0% {
+				transform: scale(1);
+			}
+
+			50% {
+				transform: scale(1.05);
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+		p {
+			padding: 0 .5rem;
+		}
+
+		section.hero,
+		.sect-3,
+		.sect-5 {
+			background-color: black;
+			padding: 1rem 0;
+			color: #fff
+		}
+
+		.h3-yellow {
+			color: #ffda00;
+			font-size: 1.8rem;
+			font-weight: 900;
+			display: block;
+		}
+
+		li {
+			list-style: none;
+			width: 100%;
+			text-align: left;
+		}
+
+		li i {
+			color: #ffda00;
+			font-size: 1.2rem;
+		}
+
+		.button-buy {
+			background-color: #0ad100;
+			padding: 2rem 1rem;
+			width: 90%;
+			display: block;
+			max-width: 400px;
+			animation: pulse 0.9s infinite;
+			border-radius: 1rem;
+			text-decoration: none;
+			color: #fff;
+			font-weight: 900;
+		}
+
+		.sect-2 {
+			padding: 2.5rem 1rem 2.5rem 1rem;
+		}
+
+		h2 {
+			font-size: 1.8rem;
+			line-height: 1.75rem;
+		}
+
+		.buy-secur {
+			display: block;
+			margin: 1rem auto;
+			width: 90%;
+			height: auto;
+			max-width: 400px;
+		}
+
+		.sect-3 {
+			background-color: #000;
+			color: #fff;
+
+		}
+
+		.h4-yellow {
+			color: #ffda00;
+			font-size: 1.3rem;
+			line-height: 1.2rem;
+		}
+
+		.bg-yellow {
+			background-color: #ffda00;
+			padding: 2rem 1rem;
+		}
+
+		.bg-yellow h2 {
+			font-size: 2.2rem;
+		}
+
+		.bg-yellow img {
+			width: 98%;
+			max-width: 600px;
+			margin: 1rem auto;
+			height: auto;
+		}
+
+		.sect-4 {
+			padding-top: 2rem;
+		}
+
+		.sect-4 h3 {
+			padding: 0 0.45rem;
+			font-weight: 900;
+		}
+
+		.sect-4 img.p {
+			width: 100%;
+			height: auto;
+		}
+
+		.sect-5 iframe {
+			width: 100%;
+			margin: 1rem;
+			height: 400px;
+			border: none;
+		}
+
+		.sect-6 {
+			padding: 1rem 0;
+			background-color: #ffda00;
+
+		}
+
+		.sect-6 img {
+			width: 90%;
+			margin: 0 auto;
+			height: auto;
+		}
+
+		.sect-7 {
+			margin-top: -1rem;
+			background-color: #000;
+			color: #fff;
+			padding: 2.3rem 0;
+		}
+
+		.h2-yellow {
+			color: #ffda00;
+		}
+
+		.bx {
+			color: #ffda00;
+		}
+
+		.faq {
+			background-color: #abb8c3;
+			padding: 3rem 1rem;
+			text-align: left;
+		}
+
+		details {
+			background-color: #f4f4f4;
+			width: 100%;
+			padding: 1rem;
+			display: block;
+			text-align: left;
+			border-bottom: 2px solid #ffda00;
+		}
+
+		details p {
+			width: 100%;
+			display: block;
+			text-align: left;
+
+		}
+
+		summary {
+			text-align: left;
+			margin-bottom: .5rem;
+			font-size: 0.9rem;
+
+
+		}
+
+		.footer h2{
+			color: #444;
+			font-size: 1rem;
+			margin-top: 0.5rem;
+			line-height: 0.9rem;
+		}
+		.footer a{
+			text-decoration: none;
+			color:#777;
+
+		}
+	</style>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
 
-										<a href="#oferta"
-											class="elementor-button-link elementor-button elementor-size-lg"
-											role="button" id="botaum">
-											<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="fas fa-bolt"></i>			</span>
-											<span class="elementor-button-text">Atenção, Restam apenas 23 frascos em nosso estoque!</span>
-											</span>
-										</a>
-									
-			<section class="">
-				
-									
-										<img width="110" height="83" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-logo-topo.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-								
-			</section>
-			<section>
-					
-						
-									<h3 class="elementor-heading-title elementor-size-large">TURBINE SUA VIDA SEXUAL PRA
-										VALER!</h3>
-								
-							
-										<p>Tenha ereções potentes, mais fortes e que vão durar muito mais tempo.
-											<br />Deixe seu pênis duro como rocha e demore mais tempo pra gozar!</p>
-									
-							<section>
-								
-													<ul class="elementor-icon-list-items">
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Aumente a Força do Seu Pênis</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Tenha Ereções Mais Fortes e Longas</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Dure Mais Tempo Fazendo Sexo</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Demore Mais Tempo Pra Gozar</span>
-														</li>
-													</ul>
-										
-											<img width="230" height="376" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-frascos2.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-													
-										
-														<ul class="elementor-icon-list-items">
-															<li class="elementor-icon-list-item">
-																<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-																<span class="elementor-icon-list-text">Elimina e Cura a Impotência Sexual</span>
-															</li>
-															<li class="elementor-icon-list-item">
-																<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-																<span class="elementor-icon-list-text">Você Nunca Mais Vai Falhar no Sexo</span>
-															</li>
-															<li class="elementor-icon-list-item">
-																<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-																<span class="elementor-icon-list-text">Aumenta os Níveis de Testosterona</span>
-															</li>
-															<li class="elementor-icon-list-item">
-																<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-																<span class="elementor-icon-list-text">Aumenta a Libido e Amplia o Tesão</span>
-															</li>
-														</ul>
-													
-							</section>
-							
-											<span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-											
-										<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-			</section>
-			<section>
-				
-									<h3 class="elementor-heading-title elementor-size-large">TURBINE SUA VIDA SEXUAL PRA
-										VALER!</h3>
-								<p>Tenha ereções potentes, mais fortes e que vão durar muito
-															mais tempo. Deixe seu pênis duro como rocha e demore mais
-															tempo pra gozar!
-                                </p>
-													
-														<img width="180" height="294" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-frascos2-mobile.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-													
-							</section>
-							<section>
-								
-													<ul class="elementor-icon-list-items">
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Aumenta a Força do Seu Pênis</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Tenha Ereções Mais Longas e Fortes</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Dure Mais Tempo Fazendo Sexo</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Demore Mais Tempo Pra Gozar</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Elimina e Cura a Impotência Sexual</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Você Nunca Mais Vai Falhar no Sexo</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Aumenta os Níveis de Testosterona</span>
-														</li>
-														<li class="elementor-icon-list-item">
-															<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="far fa-check-circle"></i>						</span>
-															<span class="elementor-icon-list-text">Aumenta a Libido e Amplia o Tesão</span>
-														</li>
-													</ul>
-							</section>
-                                            <div>
-                                                <a href="">
-                                                    <span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-                                                </a>
-                                            </div>
-											
-										
-									
-										<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-			
-			<section>
-					
-									<h2 class="elementor-heading-title elementor-size-default">FAÇA SEXO COM TODO VIGOR
-										E DISPOSIÇÃO!</h2>
-								
-										<p>Volte a ter a satisfação sexual que você merece, conseguindo ter ereções
-											potentes,
-											<br />transando mais vezes sem perder fôlego e demorando mais tempo pra gozar.</p>
-									
-										<p>Volte a ter a satisfação sexual que você merece, conseguindo ter ereções
-											potentes, transando mais vezes sem perder fôlego e demorando mais tempo pra
-											gozar.</p>
-									
-														<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b1.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-													
-														<h2 class="elementor-heading-title elementor-size-default">Você
-															Nunca Mais Vai Falhar
-															na HORA H (100% GARANTIDO)</h2>
-													<p>Com a GOTA DO EGITO você vai se tornar um homem seguro,
-																vai ter um pênis forte que vai te dar orgulho e vai
-																deixar as mulheres impressionadas.</p>
-														
-															<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b2.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-														
-															<h2 class="elementor-heading-title elementor-size-default">
-																Nunca Mais Passe Vergonha Com Um Pau Mole e Fraco</h2>
-														<p>Com a GOTA DO EGITO seu pau nunca mais vai ficar
-																	molenga, nem fraco. A partir de agora seu pênis será
-																	como aço, vai ficar firme por horas, fazendo você
-																	transar por muito mais tempo.</p>
-															
-																<h2
-																	class="elementor-heading-title elementor-size-default">
-																	Demore Por Transa No Mínimo 40 Minutos Pra Gozar
-																</h2>
-															<p>Com a GOTA DO EGITO você nunca mais vai ter
-																		ejaculação precoce. Você vai demorar no mínimo
-																		40 minutos pra gozar, e vai gozar um jato muito
-																		mais forte.</p>
-																
-							</section>
-							<section>
-								
-														<h2 class="elementor-heading-title elementor-size-default">
-															Elimina e Cura Problemas
-															de Ejaculação Precoce</h2>
-													<p>Com a GOTA DO EGITO você não será mais um coelho no
-																sexo&#8230; Agora você será como um TOURO REPRODUTOR,
-																vai demorar muito tempo pra gozar e gozar com muito mais
-																intensidade e quantidade.</p>
-														
-															<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b5.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-														
-															<h2 class="elementor-heading-title elementor-size-default">
-																Disfunção Erétil Será um
-																Problema do Passado</h2>
-														<p>Com poucas semanas de uso todos os problemas de
-																	disfunção erétil serão superadores e você será um
-																	homem com muito mais libido e desexo sexual
-																	turbinado.</p>
-															
-																<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b6.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-															
-																<h2
-																	class="elementor-heading-title elementor-size-default">
-																	Ação Rápida e Resultados
-																	Prologandos Pra Toda a Vida</h2>
-															<p>Com a GOTA DO EGITO você terá resultados
-																		consistentes e que serão prolongados por toda
-																		sua vida sexual. Sua performance sexual vai te
-																		dar orgulho e deixar sua mulher impressionada.
-																	</p>
-																
-							</section>
-                            <section>
-							<a href="">
-                                <span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-                            </a>
-							
-										<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-			</section>
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">VOCÊ SABIA DISSO?</h2>
-								
-										<p>A GOTA DO EGITO é um turbinador sexual em gotas que proporciona
-											resultados<br />muito superiores ao que você já viu antes em outros métodos.</p>
-									
-														<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m11.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-													
-														<h2 class="elementor-heading-title elementor-size-default">
-															AZULZINHO</h2>
-													<p>Tadalafila, Sildenafil, entre outras substâncias que
-																provocam efeitos colaterais muito perigosos para sua
-																saúde… não tome isso!</p>
-														
-										
-															<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m23.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-														
-															<h2 class="elementor-heading-title elementor-size-default">
-																CÁPSULAS</h2>
-														<p>Cápsulas que podem levar a arritmias cardíacas e
-																	problemas futuros que muitas vezes não geram nenhum
-																	efeito real.</p>
-															
-							</section>
-							<section>
-								
-														<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m22.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-													
-														<h2 class="elementor-heading-title elementor-size-default">
-															EXERCÍCIOS</h2>
-													<p>Onde você executa posições constrangedoras e
-																desconfortáveis, resultados aparecerão com anos de
-																práticas…</p>
-														
-															<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m24.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-														
-															<h2 class="elementor-heading-title elementor-size-default">
-																GEL, SPRAY, POMADA</h2>
-														<p>Provocam irritação, vergonha ao transportar e
-																	manusear, dor e desconforto na fricção na hora da
-																	relação…</p>
-															
-							</section>
-                            <section>
-							
-										<a href="#oferta">
-											
-											<span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-										</a>
-										<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-			</section>
-							
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">CONHEÇA O SEGREDO DA
-										NOSSA FÓRMULA</h2>
-								
-														<img width="531" height="349" src="http://gotadoegito.com/wp-content/uploads/2022/10/sub3.png" class="attachment-large size-large" alt="" decoding="async" loading="lazy" srcset="http://gotadoegito.com/wp-content/uploads/2022/10/sub3.png 531w, http://gotadoegito.com/wp-content/uploads/2022/10/sub3-300x197.png 300w" sizes="(max-width: 531px) 100vw, 531px" />											
-													<p>A exclusiva tecnologia <strong>GOTA DO EGITO</strong> de
-																aplicação sublingual proporciona uma absorção rápida e
-																eficaz por meio da glândula que temos sob a língua.
-																<br /><br />Nela vasos que acessam diretamente a corrente sanguínea absorvem rapidamente seu conteúdo e promovem resultados surpreendentes em pouquíssimo tempo.
-																<br /><br /><strong>Essa é a forma mais eficaz, garantindo até 97% de absorção dos ativos da composição.</strong>
-																Chegou o fim dos tratamentos invasivos, dolorosos e com
-																resultado temporário!</p>
-														
-							</section>
-							
-			
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">CONHEÇA O SEGREDO DA
-										NOSSA FÓRMULA</h2>
-								
-							
-			<section>
-				
-										<img width="218" height="53" src="http://gotadoegito.com/wp-content/uploads/2022/10/star.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-                                        <h2 class="elementor-heading-title elementor-size-default">MILHARES DE CLIENTES
-											EM TODO O BRASIL
-											SATISFEITOS COM A GOTA DO EGITO</h2>
-									
-											<img width="1128" height="589" src="http://gotadoegito.com/wp-content/uploads/2022/10/depoimento-desktop.jpg" class="attachment-1536x1536 size-1536x1536" alt="" decoding="async" loading="lazy" srcset="http://gotadoegito.com/wp-content/uploads/2022/10/depoimento-desktop.jpg 1128w, http://gotadoegito.com/wp-content/uploads/2022/10/depoimento-desktop-300x157.jpg 300w, http://gotadoegito.com/wp-content/uploads/2022/10/depoimento-desktop-1024x535.jpg 1024w, http://gotadoegito.com/wp-content/uploads/2022/10/depoimento-desktop-768x401.jpg 768w" sizes="(max-width: 1128px) 100vw, 1128px" />											
-										
-												<a href="">
-													<span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-												</a>
-											
-												<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-											
-			</section>
-			<section>
-				
-										<img width="218" height="53" src="http://gotadoegito.com/wp-content/uploads/2022/10/star.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-                                        <h2 class="elementor-heading-title elementor-size-default">MILHARES DE CLIENTES
-											EM TODO O BRASIL SATISFEITOS COM A GOTA DO EGITO</h2>
-									
-											<img width="640" height="673" src="http://gotadoegito.com/wp-content/uploads/2022/10/dep-m.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" srcset="http://gotadoegito.com/wp-content/uploads/2022/10/dep-m.jpg 640w, http://gotadoegito.com/wp-content/uploads/2022/10/dep-m-285x300.jpg 285w" sizes="(max-width: 640px) 100vw, 640px" />											
-										
-												<a href="">
-													
-													<span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-													
-												</a>
-											
-												<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-											
-			</section>
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">CONFIRA OS DEPOIMENTOS DE
-										CLIENTES
-										QUE RECEBEMOS PELO WHATSAPP</h2>
-								<p>Disponibilizamos alguns videos que nossos clientes enviam para nós pelo nosso
-											WhatsApp.
-											<br />Para assistir é só apertar o PLAY e ver o que os clientes estão dizendo sobre a GOTA DO EGITO.</p>
-									<iframe class="elementor-video-iframe" allowfullscreen
-															title="Player de Vídeo vimeo"
-															src="https://player.vimeo.com/video/758178914?color=FFDA00&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=1#t="></iframe>
-													<iframe class="elementor-video-iframe" allowfullscreen
-															title="Player de Vídeo vimeo"
-															src="https://player.vimeo.com/video/758180330?color=FFDA00&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=1#t="></iframe>
-													
-							</section>
-                            
-                                
-							
-										<a href="">
-											
-											<span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-											
-										<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-			
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">DEPOIMENTOS DE CLIENTES
-										EM VÍDEO</h2>
-								<p>Disponibilizamos alguns videos que nossos clientes enviam para nós pelo nosso
-											WhatsApp.
-											<br /><br />Aperte o PLAY e ver o que os clientes estão dizendo sobre a GOTA DO EGITO.</p>
-								</section>
-							<section>
-								
-														<iframe class="elementor-video-iframe" allowfullscreen
-															title="Player de Vídeo vimeo"
-															src="https://player.vimeo.com/video/758178914?color=FFDA00&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=1#t="></iframe>
-													
-														
-							</section>
-										<a href="">
-						
-											<span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-											
-										<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-			
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">SATISFAÇÃO 100% GARANTIDA
-									</h2>
-								
-									<h2 class="elementor-heading-title elementor-size-default">OU SEU DINHEIRO DE VOLTA
-									</h2>
-								
-										<img width="313" height="313" src="http://gotadoegito.com/wp-content/uploads/2022/10/garantia.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									<p>Confiamos tanto na eficácia da <strong>GOTA DO EGITO</strong> que caso
-												você utilize ele durante 90 dias e não tenha <br />resultados, devolvemos o seu dinheiro. Isso mesmo!
-												<strong>Resultados em 90 Dias ou seu dinheiro de volta</strong>.</p>
-										<a href="">
+	<a href="#oferta" class="alert-banner" role="button">
+		<span class="elementor-button-content-wrapper">
+			Atenção, Restam apenas 12 frascos com frete grátis na sua cidade!
+		</span>
+	</a>
+	<section class="hero">
 
-                                            <span class="elementor-button-text">EU QUERO A GOTA DO EGITO</span>
-                                        </a>
-											<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-										
-			</section>
-			
-			<section>
-				
-									<h2 class="elementor-heading-title elementor-size-default">RECOMENDAMOS QUE VOCÊ
-										FAÇA O USO DE 3 A 8 FRASCOS PARA OBTER MELHORES RESULTADOS.</h2>
-								
-									
-														<a href="https://ev.braip.com/checkout/pla2eeee/cheq4wzn"
-															target="_blank">
-															<img width="1126" height="365" src="http://gotadoegito.com/wp-content/uploads/2022/10/f12.gif" class="attachment-full size-full" alt="" decoding="async" loading="lazy" />								
-													
-															<img width="362" height="603" src="http://gotadoegito.com/wp-content/uploads/2022/10/12fd.gif" class="attachment-full size-full" alt="" decoding="async" loading="lazy" />								
-													
-							</section>
-							<section>
-								
-															<img width="362" height="684" src="http://gotadoegito.com/wp-content/uploads/2022/10/5f.gif" class="attachment-full size-full" alt="" decoding="async" loading="lazy" />								
-													
-														<a href="https://ev.braip.com/checkout/plazqqqz/cheq4wzn"
-															target="_blank">
-															<img width="362" height="684" src="http://gotadoegito.com/wp-content/uploads/2022/10/3f.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />								
-													
-														<a href="https://ev.braip.com/checkout/plakmmml/cheq4wzn"
-															target="_blank">
-															<img width="362" height="684" src="http://gotadoegito.com/wp-content/uploads/2022/10/1f.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />								
-													
-									<div class="elementor-image">
-										<a href="#oferta">
-											<img width="1126" height="160" src="http://gotadoegito.com/wp-content/uploads/2022/10/pay-m.gif" class="attachment-full size-full" alt="" decoding="async" loading="lazy" />
-                                        </a>
-									
-										<a href="#oferta">
-											<img width="362" height="587" src="http://gotadoegito.com/wp-content/uploads/2022/10/pay-d.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
-                                        </a>
-									
-			</section>
-			<section>
-										<img width="1120" height="334" src="http://gotadoegito.com/wp-content/uploads/2022/10/e-d-j-1.jpg" class="attachment-full size-full" alt="" decoding="async" loading="lazy" srcset="http://gotadoegito.com/wp-content/uploads/2022/10/e-d-j-1.jpg 1120w, http://gotadoegito.com/wp-content/uploads/2022/10/e-d-j-1-300x89.jpg 300w, http://gotadoegito.com/wp-content/uploads/2022/10/e-d-j-1-1024x305.jpg 1024w, http://gotadoegito.com/wp-content/uploads/2022/10/e-d-j-1-768x229.jpg 768w" sizes="(max-width: 1120px) 100vw, 1120px" />											
-									
-			</section>
-			<section>
-										<img width="362" height="551" src="http://gotadoegito.com/wp-content/uploads/2022/10/e-d-m-.jpg" class="attachment-full size-full" alt="" decoding="async" loading="lazy" srcset="http://gotadoegito.com/wp-content/uploads/2022/10/e-d-m-.jpg 362w, http://gotadoegito.com/wp-content/uploads/2022/10/e-d-m--197x300.jpg 197w" sizes="(max-width: 362px) 100vw, 362px" />											
-			</section>
-			
-			</section>
-			<section>
-										<img width="100" height="100" src="http://gotadoegito.com/wp-content/uploads/2022/10/icon-wpp.png" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" />											
-									
-										<h2 class="elementor-heading-title elementor-size-default">QUER FALAR COM NOSSOS
-											ATENDENTES PELO WHATSAPP?</h2>
-									
-											<p>Se você possui dúvidas e quer falar direto com um de nossos atendentes,
-												disponibilizamos nosso Whatsapp exclusivo para clientes. Para acessar
-												clique no botão abaixo.</p>
-										
-											<a href="https://gotadoegito.com/whatsapp">
-                                                <span class="elementor-button-text">ATENDIMENTO VIA WHATSAPP</span>
-                                            </a>
-												
-												
-																<span class="elementor-icon-list-text">Tire Suas Dúvidas </span>
-															
-																<span class="elementor-icon-list-text">Compre pelo WhatsApp</span>
-															
-																<span class="elementor-icon-list-text">Seja atendido por uma pessoa real</span>
-															
-			</section>
-			
-									<h2 class="elementor-heading-title elementor-size-default">DÚVIDAS FREQUENTES</h2>
-								
-							<section>
-																<a href="" class="elementor-toggle-title">A GOTA DO
-																	EGITO é aprovado pela ANVISA?</a>
-															
-																<p>Sim! A <strong>GOTA DO EGITO</strong> possui registro
-																	para comércio e sua fórmula é autorizada para
-																	fabricação e comercialização.</p>
-															
-																<a href="" class="elementor-toggle-title">Tem
-																	contra-indicação ou algum efeito colateral?</a>
-															
-																<p><strong>Não tem nenhuma contra indicação e nenhum efeito colateral!</strong>
-																	Por ser feito com nutrientes naturais, qualquer um
-																	pode tomar!</p>
-															
-																<a href="" class="elementor-toggle-title">GOTA DO EGITO
-																	é seguro?</a>
-															
-																<p><strong>Totalmente seguro, sem nenhuma contraindicação</strong>
-																	ou efeito colateral. No entanto, você não deve
-																	interromper o uso de remédios sem a autorização
-																	médica.</p>
-															
-																<a href="" class="elementor-toggle-title">Como usar a
-																	GOTA DO EGITO?</a>
-															
-																<p>O Uso é diário e contínuo.
-																	<strong>Basta tomar todos os dias 12 gotas embaixo da língua</strong>
-																	durante a noite, pode ser depois do jantar ou antes
-																	de dormir.</p>
-															
-																<a href="" class="elementor-toggle-title">Como faço para
-																	realizar a compra?</a>
-															
-																<p><strong>Basta escolher o kit que mais combina com você.</strong>
-																	A GOTA DO EGITO pode ser pago a vista, através de
-																	boleto bancário, ou através de cartão de crédito
-																	parcelado em até 12x.</p>
-															
-																<a href="" class="elementor-toggle-title">A embalagem é
-																	discreta?</a>
-															
-																<p>Sim, nosso produto é enviado em uma embalagem
-																	totalmente discreta e confidencial, ninguém saberá o
-																	que tem no pacote.</p>
+		<img width="110" height="83" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-logo-topo.png" alt=""
+			decoding="async" loading="lazy" />
 
-																	
-															
-			</section>
-			
-			
-			<section>
-				
-										<img width="163" height="124" src="http://gotadoegito.com/wp-content/uploads/2022/10/logorodape.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-										<h2 class="elementor-heading-title elementor-size-default">Links Úteis</h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://gotadoegito.com/aviso-legal/" target="_blank">• AVISO
-												LEGAL</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://rastreamento.correios.com.br/app/index.php"
-												target="_blank">• RASTREAR PEDIDO</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://gotadoegito.com/politicas/" target="_blank">• POLÍTICAS DE
-												PRIVACIDADE</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://gotadoegito.com/termos-e-condicoes/" target="_blank">•
-												TERMOS E CONDIÇÕES</a></h2>
-									
-											<img width="250" height="77" src="http://gotadoegito.com/wp-content/uploads/2022/10/formas-pagamento.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-										
-											<h2 class="elementor-heading-title elementor-size-default">COMPRA 100%
-												SEGURA</h2>
-										
-												<img width="250" height="80" src="http://gotadoegito.com/wp-content/uploads/2022/10/compra-segura.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-											
-			</section>
-			<section>
-				
-										<img width="163" height="124" src="http://gotadoegito.com/wp-content/uploads/2022/10/logorodape.gif" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-									
-										<h2 class="elementor-heading-title elementor-size-default">Links Úteis</h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://gotadoegito.com/aviso-legal/" target="_blank">• AVISO
-												LEGAL</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://rastreamento.correios.com.br/app/index.php"
-												target="_blank">• RASTREAR PEDIDO</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://gotadoegito.com/politicas/" target="_blank">• POLÍTICAS DE
-												PRIVACIDADE</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default"><a
-												href="https://gotadoegito.com/termos-e-condicoes/" target="_blank">•
-												TERMOS E CONDIÇÕES</a></h2>
-									
-										<h2 class="elementor-heading-title elementor-size-default">FORMAS DE PAGAMENTO
-										</h2>
-									
-											<img width="250" height="77" src="http://gotadoegito.com/wp-content/uploads/2022/10/formas-pagamento.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-										
-											<h2 class="elementor-heading-title elementor-size-default">COMPRA 100%
-												SEGURA</h2>
-										
-												<img width="250" height="80" src="http://gotadoegito.com/wp-content/uploads/2022/10/compra-segura.jpg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />											
-											
-			</section>
-			
+
+		<h3 class="h3-yellow">TURBINE SUA VIDA SEXUAL PRAVALER!</h3>
+
+
+		<p>Tenha ereções potentes, mais fortes e que vão durar muito mais tempo.
+			Deixe seu pênis duro como rocha e demore mais tempo pra gozar!
+		</p>
+
+		<img width="230" height="376" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-frascos2.gif" alt=""
+			decoding="async" />
+
+
+		<ul>
+			<li>
+				<span><i class='bx bx-check-circle'></i></span>
+				<span>Aumente a Força do Seu Pênis</span>
+			</li>
+			<li>
+				<span><i class='bx bx-check-circle'></i></span>
+				<span>Tenha Ereções Mais Fortes e Longas</span>
+			</li>
+			<li>
+				<span><i class='bx bx-check-circle'></i></span>
+				<span>Dure Mais Tempo Fazendo Sexo</span>
+			</li>
+			<li>
+				<span><i class='bx bx-check-circle'></i></span>
+				<span>Demore Mais Tempo Pra Gozar</span>
+			</li>
+			<li>
+				<span class="elementor-icon-list-icon">
+					<i class='bx bx-check-circle'></i> </span>
+				<span>Elimina e Cura a Impotência Sexual</span>
+			</li>
+			<li>
+				<span class="elementor-icon-list-icon">
+					<i class='bx bx-check-circle'></i> </span>
+				<span>Você Nunca Mais Vai Falhar no Sexo</span>
+			</li>
+			<li>
+				<span class="elementor-icon-list-icon">
+					<i class='bx bx-check-circle'></i> </span>
+				<span>Aumenta os Níveis de Testosterona</span>
+			</li>
+			<li>
+				<span class="elementor-icon-list-icon">
+					<i class='bx bx-check-circle'></i> </span>
+				<span>Aumenta a Libido e Amplia o Tesão</span>
+			</li>
+		</ul>
+
+
+		<span class="button-buy">QUERO AGENDAR MEU PEDIDO</span>
+
+		<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif"
+			class="buy-secur" alt="" />
+
+	</section>
+
+	<section class="sect-2">
+
+		<h2 class="">FAÇA SEXO COM TODO VIGOR
+			E DISPOSIÇÃO!</h2>
+		<p>Volte a ter a satisfação sexual que você merece, conseguindo ter ereções
+			potentes,
+			transando mais vezes sem perder fôlego e demorando mais tempo pra gozar.
+		</p>
+		<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b1.jpg"
+			class="attachment-large size-large" alt="" />
+
+
+
+		<h2>Você
+			Nunca Mais Vai Falhar
+			na HORA H (100% GARANTIDO)</h2>
+		<p>Com a GOTA DO EGITO você vai se tornar um homem seguro,
+			vai ter um pênis forte que vai te dar orgulho e vai
+			deixar as mulheres impressionadas.</p>
+		<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b2.jpg" class="" alt="" />
+
+
+
+		<h2>Nunca Mais Passe Vergonha Com Um Pau Mole e Fraco</h2>
+		<p>Com a GOTA DO EGITO seu pau nunca mais vai ficar
+			molenga, nem fraco. A partir de agora seu pênis será
+			como aço, vai ficar firme por horas, fazendo você
+			transar por muito mais tempo.</p>
+		<img width="185" height="189" src="https://gotadoegito.com/wp-content/uploads/2022/10/b3.jpg"
+			class="attachment-large size-large" alt="">
+
+
+		<h2>
+			Demore Por Transa No Mínimo 40 Minutos Pra Gozar
+		</h2>
+		<p>Com a GOTA DO EGITO você nunca mais vai ter
+			ejaculação precoce. Você vai demorar no mínimo
+			40 minutos pra gozar, e vai gozar um jato muito
+			mais forte.</p>
+		<img width="185" height="189" src="https://gotadoegito.com/wp-content/uploads/2022/10/b4.jpg"
+			class="attachment-large size-large" alt="">
+
+		<h2>
+			Elimina e Cura Problemas
+			de Ejaculação Precoce</h2>
+
+		<p>Com a GOTA DO EGITO você não será mais um coelho no
+			sexo&#8230; Agora você será como um TOURO REPRODUTOR,
+			vai demorar muito tempo pra gozar e gozar com muito mais
+			intensidade e quantidade.</p>
+
+		<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b5.jpg"
+			class="attachment-large size-large" alt="" />
+
+		<h2>
+			Disfunção Erétil Será um
+			Problema do Passado</h2>
+		<p>Com poucas semanas de uso todos os problemas de
+			disfunção erétil serão superadores e você será um
+			homem com muito mais libido e desexo sexual
+			turbinado.</p>
+
+		<img width="185" height="189" src="http://gotadoegito.com/wp-content/uploads/2022/10/b6.jpg"
+			class="attachment-large size-large" alt="" />
+
+		<h2 class="elementor-heading-title elementor-size-default">
+			Ação Rápida e Resultados
+			Prologandos Pra Toda a Vida</h2>
+		<p>Com a GOTA DO EGITO você terá resultados
+			consistentes e que serão prolongados por toda
+			sua vida sexual. Sua performance sexual vai te
+			dar orgulho e deixar sua mulher impressionada.
+		</p>
+
+	</section>
+	<section>
+		<a href="" class="button-buy">
+			<span>QUERO AGENDAR MEU PEDIDO</span>
+		</a>
+
+		<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif"
+			class="buy-secur" alt="" />
+
+	</section>
+	<section class="sect-3">
+
+		<h2 class="h3-yellow">VOCÊ SABIA DISSO?</h2>
+
+		<p>A GOTA DO EGITO é um turbinador sexual em gotas que proporciona
+			resultados<br />muito superiores ao que você já viu antes em outros métodos.</p>
+
+		<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m11.gif" alt="" />
+
+		<h2 class="h4-yellow">
+			AZULZINHO</h2>
+		<p>Tadalafila, Sildenafil, entre outras substâncias que
+			provocam efeitos colaterais muito perigosos para sua
+			saúde… não tome isso!</p>
+
+
+		<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m23.gif" alt="" />
+
+		<h2 class="h4-yellow">
+			CÁPSULAS</h2>
+		<p>Cápsulas que podem levar a arritmias cardíacas e
+			problemas futuros que muitas vezes não geram nenhum
+			efeito real.</p>
+
+		<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m22.gif" alt="" />
+		<h2 class="h4-yellow">
+			EXERCÍCIOS</h2>
+		<p>Onde você executa posições constrangedoras e
+			desconfortáveis, resultados aparecerão com anos de
+			práticas…</p>
+
+		<img width="200" height="140" src="http://gotadoegito.com/wp-content/uploads/2022/10/m24.gif"
+			class="attachment-large size-large" alt="" />
+
+		<h2 class="h4-yellow">
+			GEL, SPRAY, POMADA</h2>
+		<p>Provocam irritação, vergonha ao transportar e
+			manusear, dor e desconforto na fricção na hora da
+			relação…</p>
+
+
+		<a href="#oferta" class="button-buy">
+
+			<span class="elementor-button-text">QUERO AGENDAR MEU PEDIDO</span>
+		</a>
+		<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif"
+			class="buy-secur" alt="" />
+
+	</section>
+	<section class="bg-yellow">
+
+		<h2>CONHEÇA O SEGREDO DA NOSSA FÓRMULA</h2>
+		<img width="531" height="349" src="http://gotadoegito.com/wp-content/uploads/2022/10/sub3.png" alt="" />
+		<p>A exclusiva tecnologia <strong>GOTA DO EGITO</strong> de
+			aplicação sublingual proporciona uma absorção rápida e
+			eficaz por meio da glândula que temos sob a língua.
+			<br /><br />Nela vasos que acessam diretamente a corrente sanguínea absorvem rapidamente seu conteúdo e
+			promovem resultados surpreendentes em pouquíssimo tempo.
+			<br /><br /><strong>Essa é a forma mais eficaz, garantindo até 97% de absorção dos ativos da
+				composição.</strong>
+			Chegou o fim dos tratamentos invasivos, dolorosos e com
+			resultado temporário!
+		</p>
+
+	</section>
+	<section class="sect-4">
+
+		<img width="218" height="53" src="http://gotadoegito.com/wp-content/uploads/2022/10/star.gif"
+			class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
+
+		<h3>MILHARES DE CLIENTES
+			EM TODO O BRASIL
+			SATISFEITOS COM A GOTA DO EGITO</h3>
+
+		<img width="1128" height="589" src="http://gotadoegito.com/wp-content/uploads/2022/10/depoimento-desktop.jpg"
+			class="p" alt="" />
+
+		<a href="" class="button-buy">
+			<span class="elementor-button-text">QUERO AGENDAR MEU PEDIDO</span>
+		</a>
+
+		<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif"
+			class="buy-secur" alt="" />
+
+	</section>
+	<section class="sect-5">
+
+		<h2 class="elementor-heading-title elementor-size-default">DEPOIMENTOS DE CLIENTES
+			EM VÍDEO</h2>
+		<p>Disponibilizamos alguns videos que nossos clientes enviam para nós pelo nosso
+			WhatsApp.
+			<br /><br />Aperte o PLAY e ver o que os clientes estão dizendo sobre a GOTA DO EGITO.
+		</p>
+
+
+		<iframe class="elementor-video-iframe" allowfullscreen title="Player de Vídeo vimeo"
+			src="https://player.vimeo.com/video/758178914?color=FFDA00&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=1#t="></iframe>
+		<iframe class="elementor-video-iframe" allowfullscreen="" title="Player de Vídeo vimeo"
+			src="https://player.vimeo.com/video/758174188?color=FFDA00&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=1#t="></iframe>
+		<iframe class="elementor-video-iframe" allowfullscreen="" title="Player de Vídeo vimeo"
+			src="https://player.vimeo.com/video/758180330?color=FFDA00&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=1#t="></iframe>
+
+
+		<a href="" class="button-buy">
+
+			<span>QUERO AGENDAR MEU PEDIDO</span>
+		</a>
+
+		<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets.gif"
+			class="buy-secur" alt="" />
+
+	</section>
+	<section>
+
+		<h2 class="elementor-heading-title elementor-size-default">SATISFAÇÃO 100% GARANTIDA
+		</h2>
+
+		<h2 class="elementor-heading-title elementor-size-default">OU SEU DINHEIRO DE VOLTA
+		</h2>
+
+		<img width="313" height="313" src="http://gotadoegito.com/wp-content/uploads/2022/10/garantia.gif"
+			class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
+		<p>Confiamos tanto na eficácia da <strong>GOTA DO EGITO</strong> que caso
+			você utilize ele durante 90 dias e não tenha <br />resultados, devolvemos o seu dinheiro. Isso
+			mesmo!
+			<strong>Resultados em 90 Dias ou seu dinheiro de volta</strong>.
+		</p>
+		<a href="" class="button-buy">
+
+			<span>QUERO AGENDAR MEU PEDIDO</span>
+		</a>
+		<img width="376" height="43" src="http://gotadoegito.com/wp-content/uploads/2022/10/gde-bullets2.gif"
+			class="buy-secur" alt="" />
+
+	</section>
+	<section class="sect-6">
+		<img src="http://gotadoegito.com/wp-content/uploads/2022/10/pay-d.gif" />
+
+		<img style="width: 100%;" src="http://gotadoegito.com/wp-content/uploads/2022/10/e-d-m-.jpg" alt="" />
+	</section>
+
+	</section>
+	<section class="sect-7">
+		<img width="100" height="100" src="http://gotadoegito.com/wp-content/uploads/2022/10/icon-wpp.png"
+			class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" />
+
+		<h2 class="h2-yellow">QUER FALAR COM NOSSOS
+			ATENDENTES PELO WHATSAPP?</h2>
+
+		<p>Se você possui dúvidas e quer falar direto com um de nossos atendentes,
+			disponibilizamos nosso Whatsapp exclusivo para clientes. Para acessar
+			clique no botão abaixo.</p>
+
+		<a href="https://gotadoegito.com/whatsapp" class="button-buy">
+			<span class=""><i class='bx bxl-whatsapp' style="color:#fff"></i>ATENDIMENTO VIA WHATSAPP</span>
+		</a>
+
+
+		<span><i class='bx bx-check-circle'></i>Tire Suas Dúvidas </span>
+
+		<span><i class='bx bx-check-circle'></i>Compre pelo WhatsApp</span>
+
+		<span><i class='bx bx-check-circle'></i>Seja atendido por uma pessoa real</span>
+
+	</section>
+
+	<section class="faq">
+		<h2>DÚVIDAS FREQUENTES</h2>
+
+		<details>
+			<summary class="elementor-toggle-title">A GOTA DO EGITO é aprovado pela ANVISA?</summary>
+			<p>Sim! A <strong>GOTA DO EGITO</strong> possui registro para comércio e sua fórmula é autorizada para
+				fabricação e comercialização.</p>
+		</details>
+
+		<details>
+			<summary class="elementor-toggle-title">Tem contra-indicação ou algum efeito colateral?</summary>
+			<p><strong>Não tem nenhuma contra indicação e nenhum efeito colateral!</strong> Por ser feito com nutrientes
+				naturais, qualquer um pode tomar!</p>
+		</details>
+
+		<details>
+			<summary class="elementor-toggle-title">GOTA DO EGITO é seguro?</summary>
+			<p><strong>Totalmente seguro, sem nenhuma contraindicação</strong> ou efeito colateral. No entanto, você não
+				deve interromper o uso de remédios sem a autorização médica.</p>
+		</details>
+
+		<details>
+			<summary class="elementor-toggle-title">Como usar a GOTA DO EGITO?</summary>
+			<p>O Uso é diário e contínuo. <strong>Basta tomar todos os dias 12 gotas embaixo da língua</strong> durante
+				a
+				noite, pode ser depois do jantar ou antes de dormir.</p>
+		</details>
+
+		<details>
+			<summary class="elementor-toggle-title">Como faço para realizar a compra?</summary>
+			<p><strong>Basta escolher o kit que mais combina com você.</strong> A GOTA DO EGITO pode ser pago a vista,
+				através de boleto bancário, ou através de cartão de crédito parcelado em até 12x.</p>
+		</details>
+
+		<details>
+			<summary class="elementor-toggle-title">A embalagem é discreta?</summary>
+			<p>Sim, nosso produto é enviado em uma embalagem totalmente discreta e confidencial, ninguém saberá o que
+				tem no
+				pacote.</p>
+		</details>
+	</section>
+
+
+
+	<section class="footer">
+
+		<img width="163" height="124" src="http://gotadoegito.com/wp-content/uploads/2022/10/logorodape.gif" />
+
+		<h3>Links Úteis</h3>
+
+		<h2> <a href="https://gotadoegito.com/aviso-legal/" target="_blank">• AVISO LEGAL</a> </h2>
+
+		<h2> <a href="https://rastreamento.correios.com.br/app/index.php" target="_blank">• RASTREAR PEDIDO</a> </h2>
+
+		<h2> <a href="https://gotadoegito.com/politicas/" target="_blank">• POLÍTICAS DE PRIVACIDADE</a> </h2>
+
+		<h2><a href="https://gotadoegito.com/termos-e-condicoes/" target="_blank">• TERMOS E CONDIÇÕES</a></h2>
+
+		<h2 style="margin-top: 2rem;">FORMAS DE PAGAMENTO</h2>
+
+		<img width="250" height="77" src="http://gotadoegito.com/wp-content/uploads/2022/10/formas-pagamento.jpg"
+			class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
+
+		<h2>COMPRA 100%
+			SEGURA</h2>
+
+		<img width="250" height="80" src="http://gotadoegito.com/wp-content/uploads/2022/10/compra-segura.jpg"
+			class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
+
+	</section>
 	
 </body>
 
