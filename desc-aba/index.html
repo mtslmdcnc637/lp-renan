@@ -144,6 +144,11 @@
             padding: 2.2rem;
             border-radius: 10px;
             width: 620px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
         }
         .offer h1{
             color: #1a559c;
@@ -162,9 +167,19 @@
             padding: 0 2rem;
         }
         li{
-            
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .bx-check{
+            fill: #1a559c;
+            color: #1a559c;
+            font-size: 2rem;
         }
     </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -194,10 +209,10 @@
         <div class="offer">
             <h1>Veja o que irá acontecer com você após o método</h1>
             <ul>
-                <li>Terá materiais para trabalhar diversas áreas físicas e cognitivas</li>
-                <li>Saberá atividades para o desenvolvimento motor, cognitivo, linguagem, socialização e auto-cuidados</li>
-                <li>Conquistará uma melhora significativa na harmonia familiar</li>
-                <li>Terá acesso vitalício e com atualizações ao nosso material por um único pagamento</li>
+                <li><i class='bx bx-check'></i>Terá materiais para trabalhar diversas áreas físicas e cognitivas</li>
+                <li><i class='bx bx-check'></i>Saberá atividades para o desenvolvimento motor, cognitivo, linguagem, socialização e auto-cuidados</li>
+                <li><i class='bx bx-check'></i>Conquistará uma melhora significativa na harmonia familiar</li>
+                <li><i class='bx bx-check'></i>Terá acesso vitalício e com atualizações ao nosso material por um único pagamento</li>
             </ul>
             <b>Promoção especial de:</b>
             <h1 class="gig">R$497,00</h1>
