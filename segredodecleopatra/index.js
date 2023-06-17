@@ -589,48 +589,9 @@ document.body.onload = function() {
                         }
                     }
                 </style>
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <a href="https://pay.kiwify.com.br/VTgXIL9" target="_blank" class="btn button-YPbCor8380980-element zooming">
+                <a href="" target="_blank" class="btn button-YPbCor8380980-element zooming">
                 QUERO TRANSFORMAR MINHA VIDA
                 </a>
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
 
             </div>
         </div>
@@ -1211,48 +1172,10 @@ document.body.onload = function() {
                         }
                     }
                 </style>
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <a href="https://pay.kiwify.com.br/VTgXIL9" target="_blank" class="btn button-YPbCor8380980-element zooming">
+                 <a href="https://pay.kiwify.com.br/VTgXIL9" target="_blank" class="btn button-YPbCor8380980-element zooming">
                     QUERO TRANSFORMAR MINHA VIDA
                 </a>
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
                 
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-
             </div>
         </div>
     </div>
@@ -2027,48 +1950,10 @@ document.body.onload = function() {
                         }
                     }
                 </style>
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <a href="https://pay.kiwify.com.br/VTgXIL9" target="_blank" class="btn button-YPbCor8380980-element zooming">
+                <a href="" target="_blank" class="btn button-YPbCor8380980-element zooming">
                     QUERO TRANSFORMAR MINHA VIDA
                 </a>
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
                 
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                
-                <!-- Abaixo o link do checkoutAbaixo o link---------------------------------------- do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-                <!-- ----------------------------------------Abaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkoutAbaixo o link do checkout -->
-
             </div>
         </div>
     </div>
@@ -2126,7 +2011,7 @@ document.body.onload = function() {
                     <p><strong>Copyright 2023 – Segredo de Cleópatra ®</strong></p>
                     <p style="margin-top:4px;">Todos os Direitos Reservados</p>
                     <div style="display:flex;align-items:center;justify-content:center;margin-top:24px;">
-                        <a id="t" style="margin-right:12px" href="#" target="_blank">
+                        <a id="t" style="margin-right:12px" href="" target="_blank">
                             Termos de Uso
                         </a> <span style="margin-right:12px">·</span>
                         <a id="p" href="#" target="_blank">
